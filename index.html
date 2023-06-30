@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Content Display</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="left-panel">
+      <ul>
+        <li><a href="#" onclick="showContent('home')">Home</a></li>
+        <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+        <li><a href="#" onclick="showContent('information')">Information</a></li>
+        <li><a href="#" onclick="showContent('guide')">Guide</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <h2>Welcome to the Home Page</h2>
+      <p>This is the initial content that will be shown by default.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
